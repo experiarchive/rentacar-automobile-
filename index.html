@@ -108,7 +108,7 @@
         </section>
 
         <!-- 2. 핵심 이점 섹션 (미니멀리즘 + 3D 아이콘) -->
-        <section id="form-section" class="px-8 py-10">
+        <section id="benefit-section" class="px-8 py-10">
             <h3 class="text-2xl font-bold text-gray-800 mb-12 text-center">
                 지금 상담 신청시
                 <span class="text-blue-600">특별한 혜택</span>
@@ -158,23 +158,6 @@
                         <h4 class="text-lg font-bold text-gray-800">24시간 상담</h4>
                         <p class="text-base text-gray-600">저녁/주말 관계없이 아무 때나 빠른 응답</p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 3. 설득 섹션 -->
-        <section class="px-8 py-12" style="background-color:#F7F9FC;">
-            <div class="text-center space-y-5">
-                <p class="text-3xl font-bold text-gray-900 leading-snug">지금 결정하실 필요 없습니다.</p>
-                <p class="text-xl font-semibold text-blue-600">상담은 무료니까요.</p>
-                <p class="text-base text-gray-600 leading-relaxed">
-                    가볍게 확인만 해보셔도<br>
-                    <span class="text-blue-600">“어? 이 가격이면 가능하네?”라고 느끼실 겁니다.</span>
-                </p>
-                <div class="pt-1">
-                    <a href="#form-section" class="inline-block px-8 py-4 text-lg neumorphic-cta-button">
-                        지금 무료 상담 시작하기 &gt;
-                    </a>
                 </div>
             </div>
         </section>
@@ -251,7 +234,24 @@
                 </div>
             </div> <!-- [추가] 요청 2: 내부 "카드" div 닫기 -->
         </section>
-    
+
+        <!-- 3. 설득 섹션 -->
+        <section class="px-8 py-12" style="background-color:#F7F9FC;">
+            <div class="text-center space-y-5">
+                <p class="text-3xl font-bold text-gray-900 leading-snug">지금 결정하실 필요 없습니다.</p>
+                <p class="text-xl font-semibold text-blue-600">상담은 무료니까요.</p>
+                <p class="text-base text-gray-600 leading-relaxed">
+                    가볍게 확인만 해보셔도<br>
+                    <span class="text-blue-600">“어? 이 가격이면 가능하네?”라고 느끼실 겁니다.</span>
+                </p>
+                <div class="pt-1">
+                    <a href="#final-form" class="inline-block px-8 py-4 text-lg neumorphic-cta-button">
+                        지금 무료 상담 시작하기 &gt;
+                    </a>
+                </div>
+            </div>
+        </section>
+   
         <div class="px-8 mt-10">
             <img src="benz.webp" alt="긴급성 강조 차량 이미지" class="w-full rounded-3xl shadow-lg object-cover">
         </div>
@@ -281,14 +281,21 @@
                 <!-- 3. 행동 유도 (가운데 정렬) -->
                 <!-- [수정] text-center 추가 -->
                 <p class="text-lg font-bold text-gray-800 text-center">
-                    이건 상담만 받아도 바로 확인 가능합니다.
+                    지금도 누군가는 상담을 받고 있습니다!
                 </p>
     
             </div>
         </section>
 
-        <!-- 6. 신청폼 임베드 -->
-        <section class="px-8 py-10">
+        <!-- 6. 신청현황 임베드 -->
+        <section id="today-form" class="px-8 py-10">
+            <div class="bg-white rounded-3xl shadow-xl p-4">
+                <iframe frameborder='0' width='100%' height='480' name='ifrm_dbdbdeep' scrolling='no' src='//dbdbdeep.com/new/mct/list/?S00277743GC05919580D' ></iframe>
+            </div>
+        </section>
+
+        <!-- 7. 신청폼 임베드 -->
+        <section id="final-form" class="px-8 py-10">
             <div class="bg-white rounded-3xl shadow-xl p-4">
                 <iframe frameborder="0" width="100%" name="ifrm_dbdbdeep" scrolling="no" src="//dbdbdeep.com/new/mct/ifr/?S00277743GC05919580D"></iframe>
                 <script src="//dbdbdeep.com/cms/js/jquery/jquery-1.8.2.min.js"></script>
@@ -325,14 +332,12 @@
             </div>
         </section>
 
-        <!-- 6. 푸터 (미니멀리즘) -->
+        <!-- 8. 푸터 (미니멀리즘) -->
         <footer class="bg-gray-800 text-gray-400 text-xs p-8 text-center">
             <p class="mt-4 text-gray-500">Copyright © Rentacar. All rights reserved.</p>
         </footer>
 
     </div> <!-- /페이지 전체 컨테이너 -->
-
-
 
 </body>
 </html>
