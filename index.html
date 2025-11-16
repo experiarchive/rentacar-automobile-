@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>저신용자 전문 장기렌트 상담</title>
-    <!-- Tailwind CSS 로드 -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 폰트 로드 (Noto Sans KR) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Tailwind CSS 로드 --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- 폰트 로드 (Noto Sans KR) --><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
     
@@ -82,11 +80,9 @@
 </head>
 <body class="bg-white text-gray-800">
 
-    <!-- 모바일 최적화 (최대 너비 제한) -->
-    <div class="max-w-lg mx-auto min-h-screen">
+    <!-- 모바일 최적화 (최대 너비 제한) --><div class="max-w-lg mx-auto min-h-screen">
 
-        <!-- 1. 메인 후킹 섹션 (미니멀리즘 + 3D 아이콘) -->
-        <section class="p-3 pt-12 text-center">
+        <!-- 1. 메인 후킹 섹션 (미니멀리즘 + 3D 아이콘) --><section class="p-3 pt-12 text-center">
             
             <h1 class="text-3xl font-bold leading-tight mb-4">
                 "혹시 신용등급 때문에..."<br>
@@ -107,16 +103,14 @@
             </div>
         </section>
 
-        <!-- 2. 핵심 이점 섹션 (미니멀리즘 + 3D 아이콘) -->
-        <section id="benefit-section" class="px-8 py-10">
+        <!-- 2. 핵심 이점 섹션 (미니멀리즘 + 3D 아이콘) --><section id="benefit-section" class="px-8 py-10">
             <h3 class="text-2xl font-bold text-gray-800 mb-12 text-center">
                 지금 상담 신청시
                 <span class="text-blue-600">특별한 혜택</span>
             </h3>
             
             <div class="space-y-8">
-                <!-- 혜택 1 -->
-                <div class="flex items-center">
+                <!-- 혜택 1 --><div class="flex items-center">
                     <div class="flex-shrink-0 w-16 h-16 mr-5">
                         <img src="https://img.icons8.com/3d-fluency/94/stack-of-coins.png" alt="수수료 비교" class="icon-3d"
                              onerror="this.src='https://placehold.co/94x94/ffffff/334155?text=Fee'">
@@ -126,8 +120,7 @@
                         <p class="text-base text-gray-600">타업체 평균 수수료 12% 대비 완전 무료</p>
                     </div>
                 </div>
-                <!-- 혜택 2 -->
-                <div class="flex items-center">
+                <!-- 혜택 2 --><div class="flex items-center">
                     <div class="flex-shrink-0 w-16 h-16 mr-5">
                         <img src="https://img.icons8.com/3d-fluency/94/laptop.png" alt="비대면 전자계약" class="icon-3d"
                              onerror="this.src='https://placehold.co/94x94/ffffff/334155?text=Online'">
@@ -137,8 +130,7 @@
                         <p class="text-base text-gray-600">언제 어디서나 모바일로 견적·계약 OK</p>
                     </div>
                 </div>
-                <!-- 혜택 3 -->
-                <div class="flex items-center">
+                <!-- 혜택 3 --><div class="flex items-center">
                     <div class="flex-shrink-0 w-16 h-16 mr-5">
                         <img src="https://img.icons8.com/3d-fluency/94/rocket.png" alt="빠른 출고" class="icon-3d"
                              onerror="this.src='https://placehold.co/94x94/ffffff/334155?text=Fast'">
@@ -148,8 +140,7 @@
                         <p class="text-base text-gray-600">하루 만에! 길어도 7일 내 출고 보장</p>
                     </div>
                 </div>
-                <!-- 혜택 4 -->
-                <div class="flex items-center">
+                <!-- 혜택 4 --><div class="flex items-center">
                     <div class="flex-shrink-0 w-16 h-16 mr-5">
                         <img src="https://img.icons8.com/3d-fluency/94/headset.png" alt="24시간 상담" class="icon-3d"
                              onerror="this.src='https://placehold.co/94x94/ffffff/334155?text=24H'">
@@ -162,69 +153,47 @@
             </div>
         </section>
 
-        <!-- 4. 장기렌트카 장점 -->
-        <!-- 
+        <!-- 4. 장기렌트카 장점 --><!-- 
             [수정] max-w-3xl mx-auto 제거: 
             부모 컨테이너(max-w-lg)의 너비를 따르도록 하여 다른 섹션과 폭을 맞춥니다.
-        -->
-        <!-- [수정] Section 3과 동일한 구조로 변경. section이 배경과 padding을 모두 가짐 -->
-        <!-- [수정] 요청 2: 섹션 배경(F7F9FC)은 유지하되, 내부에 흰색 "카드" div를 추가하여 전문성 강화 -->
-        <section class="mt-16 bg-[#F7F9FC] px-8 py-10">
-            <!-- [추가] 요청 2: bg-white/shadow/padding을 가진 내부 "카드" div -->
-            <div class="mx-auto bg-white rounded-xl shadow-sm px-6 py-10">
-                <h3 class="text-2xl font-bold text-gray-900 text-center mb-10">
-                    왜 요즘 장기렌트를 선택할까요?
-                </h3>
-                
-                <!-- [수정] '아이디어 2: 숫자 강조 레이아웃' 적용 -->
-                <div class="space-y-10"> <!-- 항목 간 간격 수정 -->
-                    
-                    <!-- 혜택 1: 돈 -->
-                    <!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 -->
-                    <div class="flex items-start gap-4">
-                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) -->
-                        <div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">01.</div>
+        --><!-- [수정] Section 3과 동일한 구조로 변경. section이 배경과 padding을 모두 가짐 --><!-- [수정] 요청 2: 섹션 배경(F7F9FC)은 유지하되, 내부에 흰색 "카드" div를 추가하여 전문성 강화 --><!-- [수정] 하얀색 카드(div)를 제거하고 내용을 section에 직접 배치하여 좁아 보이는 문제 해결 --><section class="mt-16 bg-[#F7F9FC] px-8 py-10">
+            <!-- [제거] <div class="w-full bg-white rounded-xl shadow-sm py-10"> --><h3 class="text-2xl font-bold text-gray-900 text-center mb-10">
+                왜 요즘 장기렌트를 선택할까요?
+            </h3>
+            
+            <!-- [수정] '아이디어 2: 숫자 강조 레이아웃' 적용 --><div class="space-y-10"> <!-- 항목 간 간격 수정 --><!-- 혜택 1: 돈 --><!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 --><div class="flex items-start gap-4">
+                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) --><div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">01.</div>
                         <div class="text-left">
                             <p class="font-bold text-[18px] leading-[1.3] tracking-tight text-[#111111]">
                                     갑작스런 지출이 없습니다.
                                 </p>
-                                <!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) -->
-                                <p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
+                                <!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) --><p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
                                     보험·세금·정비까지 모두 월 요금에 포함되어 있어
                                     <span class="text-[#2A64F8]">“언제 또 큰돈 나갈까”</span> 하는 불안이 사라집니다.
                                 </p>
                         </div>
                     </div>
     
-                    <!-- 혜택 2: 자동차 -->
-                    <!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 -->
-                    <div class="flex items-start gap-4">
-                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) -->
-                        <div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">02.</div>
+                    <!-- 혜택 2: 자동차 --><!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 --><div class="flex items-start gap-4">
+                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) --><div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">02.</div>
                         <div class="text-left">
                             <p class="font-bold text-[18px] leading-[1.3] tracking-tight text-[#111111]">
                                     차에 문제가 생겨도 내 일이 아닙니다.
                                 </p>
-                                <!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) -->
-                                <p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
+                                <!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) --><p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
                                     고장·사고가 나도 처리·수리까지 모두 맡겨지기 때문에
                                     차 때문에 머리 아플 일이 눈에 띄게 줄어듭니다.
                                 </p>
                         </div>
                     </div>
     
-                    <!-- 혜택 3: 사람 -->
-                    <!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 -->
-                    <div class="flex items-start gap-4">
-                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) -->
-                        <div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">03.</div>
+                    <!-- 혜택 3: 사람 --><!-- [수정] flex 좌-우 레이아웃으로 변경, 아이콘 대신 숫자 사용 --><div class="flex items-start gap-4">
+                        <!-- [수정] 요청 1: 번호 스타일 수정 (font-semibold, text-blue-300, opacity-80) --><div class="text-4xl font-semibold text-blue-300 w-12 flex-shrink-0 pt-1 opacity-80">03.</div>
                         <div class="text-left">
                             <p class="font-bold text-[18px] leading-[1.3] tracking-tight text-[#111111]">
                                     내 상황이 바뀌면 차도 편하게 바꿀 수 있습니다.
                             </p>
-                            <!-- [수정] 누락되었던 3번 설명 텍스트 복원 -->
-                            <!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) -->
-                            <p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
+                            <!-- [수정] 누락되었던 3번 설명 텍스트 복원 --><!-- [수정] 요청 3: line-height 수정 (leading-[1.65]) --><p class="mt-2 text-[15px] leading-[1.65] text-[#444444]">
                                 이사·직장·가족 구성 등 라이프스타일이 달라져도
                                 장기 소유의 부담 없이 유연하게 차종을 선택할 수 있습니다.
                             </p>
@@ -232,11 +201,9 @@
                     </div>
     
                 </div>
-            </div> <!-- [추가] 요청 2: 내부 "카드" div 닫기 -->
-        </section>
+            <!-- </div> --><!-- [제거] 내부 "카드" div 닫기 --></section>
 
-        <!-- 3. 설득 섹션 -->
-        <section class="px-8 py-12" style="background-color:#F7F9FC;">
+        <!-- 3. 설득 섹션 --><section class="px-8 py-12" style="background-color:#F7F9FC;">
             <div class="text-center space-y-5">
                 <p class="text-3xl font-bold text-gray-900 leading-snug">지금 결정하실 필요 없습니다.</p>
                 <p class="text-xl font-semibold text-blue-600">상담은 무료니까요.</p>
@@ -256,35 +223,23 @@
             <img src="benz.webp" alt="긴급성 강조 차량 이미지" class="w-full rounded-3xl shadow-lg object-cover">
         </div>
 
-        <!-- [신규] 5. 긴급성 + 최종 확증 섹션 -->
-        <!-- [수정] 텍스트 및 디자인 전면 개편 -->
-        <section class="mt-16 bg-[#F7F9FC] px-8 py-10">
-            <!-- 섹션 4와 동일한 카드형 디자인 적용 -->
-            <!-- [수정] text-center -> text-left (기본 정렬 변경) -->
-            <div class="mx-auto bg-white rounded-xl shadow-sm px-6 py-10 text-left">
+        <!-- [신규] 5. 긴급성 + 최종 확증 섹션 --><!-- [수정] 배경색을 하얀색으로 변경하고, 디자인 요소 추가 --><section class="mt-16 bg-white shadow-lg rounded-xl px-8 py-10 text-center">
                 
-                <!-- 1. 고객 반응 (왼쪽 정렬) -->
-                <p class="text-xl font-semibold text-gray-800 leading-relaxed">
-                    “생각보다 월 요금이 훨씬 낮게 나와<br>놀라시는 분들이 가장 많습니다.”
-                </p>
-                
-                <!-- 2. 가격 차이 (왼쪽 정렬) -->
-                <!-- [수정] text-gray-600 -> text-gray-700 (색상 선명하게) -->
-                <p class="text-base text-gray-700 mt-6 leading-relaxed">
-                    차종·신용·직장 조건에 따라<br>
-                    월 렌트료 차이가 <span class="text-2xl font-bold text-blue-600">최대 7만~15만 원</span>까지 벌어질 수 있습니다.
-                </p>
+            <!-- 1. 고객 반응 --><p class="text-xl md:text-2xl font-bold text-gray-800 leading-relaxed">
+                “생각보다 월 요금이 훨씬 낮게 나와<br>놀라시는 분들이 가장 많습니다.”
+            </p>
+            
+            <!-- 2. 가격 차이 --><p class="text-base md:text-lg text-gray-700 mt-6 leading-relaxed">
+                차종·신용·직장 조건에 따라<br>
+                월 렌트료 차이가 <span class="text-2xl md:text-3xl font-bold text-blue-600">최대 7만~15만 원</span>까지 벌어질 수 있습니다.
+            </p>
     
-                <!-- 구분선 -->
-                <div class="border-t w-1/4 mx-auto my-8"></div>
+            <!-- 구분선 --><div class="border-t border-gray-300 w-20 mx-auto my-8"></div>
     
-                <!-- 3. 행동 유도 (가운데 정렬) -->
-                <!-- [수정] text-center 추가 -->
-                <p class="text-lg font-bold text-gray-800 text-center">
-                    지금도 누군가는 상담을 받고 있습니다!
-                </p>
+            <!-- 3. 행동 유도 (강조 띠) --><p class="inline-block bg-blue-50 text-blue-700 text-lg md:text-xl font-bold py-2 px-4 rounded-lg shadow-sm">
+                지금도 누군가는 상담을 받고 있습니다!
+            </p>
     
-            </div>
         </section>
 
         <!-- 6. 신청현황 임베드 -->
